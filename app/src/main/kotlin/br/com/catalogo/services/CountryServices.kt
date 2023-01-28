@@ -10,4 +10,6 @@ class CountryServices {
             throw Exception("O pais ${country.name} nao e permitido")
         }
     }
+
+    fun getAll() = listOf("Brasil")
 }

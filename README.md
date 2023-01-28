@@ -37,3 +37,12 @@
 
 # Proximos passos
 # abstracao category , adress , customer
+
+
+# 22/01/2023
+# API endereco de internet para executar uma funcao
+# Aplciar regras de negocio na classe de servico de categoria - aguardando as regras
+# Olhar Exception Tratamento de excecoes, executar as funcoes no application.kt - ok
+# Regras de Negocio: Criar API Category (criar end point getall) retornar as categorias
+# Acao,Aventura,Terror,Drama no minimo 5 - ok
+# micronaut . io
