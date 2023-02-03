@@ -4,7 +4,7 @@ import java.time.LocalDateTime
 
 data class Customer(
     val id: Int? = null,
-    // Storeid ??
+    val store: Store,
     val firstName: String,
     val lastName: String,
     val email: String,
