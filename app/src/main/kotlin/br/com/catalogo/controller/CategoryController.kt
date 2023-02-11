@@ -4,9 +4,9 @@ import br.com.catalogo.services.CategoryServices
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Get
 
-@Controller("/CategoryController/")
+@Controller("/Category/")
 class CategoryController {
     val categoryServices = CategoryServices()
     @Get
-    fun hello() = categoryServices.getAll()
+    fun getALL() = categoryServices.getAll()
 }
